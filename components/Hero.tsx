@@ -1,4 +1,4 @@
-import { toast, ToastContainer } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 import { carddata1, carddata2, carddata3, carddata4 } from "./Componentdata";
 import Footer from "./Footer";
 import Question from "./Question";

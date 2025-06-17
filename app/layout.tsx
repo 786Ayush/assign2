@@ -14,14 +14,16 @@ const syne = Syne({
 });
 
 export const metadata = {
-  title: "Your App",
+  title: "Freelancer Profile",
   description: "Your App Description",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" >
-      <head />
+      <head >
+        <link rel="icon" href="/brand.svg" type="image/svg+xml" />
+        </head>
       <body className={`${poppins.variable} ${syne.variable}`}>{children}</body>
     </html>
   );

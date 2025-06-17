@@ -11,6 +11,15 @@ const compat = new FlatCompat({
 
 const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
+
+  {
+    files: ["**/*.{js,ts,jsx,tsx}"], // apply to your source files
+    rules: {
+      "@next/next/no-img-element": "off",
+      "no-console": "off",
+      // add more rules here
+    },
+  },
 ];
 
 export default eslintConfig;

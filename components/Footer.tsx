@@ -42,8 +42,6 @@ export default function Footer() {
     });
   }, [originalWidth, controls]);
 
-  // Duplicate items twice for seamless scroll
-  const repeatedItems = [...items, ...items];
 
   return (
     <div className="">
@@ -62,7 +60,10 @@ export default function Footer() {
                 key={i}
                 className="flex items-center gap-16 text-xl font-medium min-w-fit"
               >
-                <span style={{fontFamily:"Syne"}} className="font-syne font-bold text-[56px] leading-[88px] tracking-[0%] text-[#CBCBCB] uppercase">
+                <span
+                  style={{ fontFamily: "Syne" }}
+                  className="font-syne font-bold text-[56px] leading-[88px] tracking-[0%] text-[#CBCBCB] uppercase"
+                >
                   {text}
                 </span>
                 <img
@@ -81,7 +82,10 @@ export default function Footer() {
                 key={i + items.length}
                 className="flex items-center gap-16 text-xl font-medium min-w-fit"
               >
-                <span style={{fontFamily:"Syne"}} className="font-syne font-bold text-[56px] leading-[88px] tracking-[0%] text-[#CBCBCB] uppercase">
+                <span
+                  style={{ fontFamily: "Syne" }}
+                  className="font-syne font-bold text-[56px] leading-[88px] tracking-[0%] text-[#CBCBCB] uppercase"
+                >
                   {text}
                 </span>
                 <img
@@ -95,10 +99,16 @@ export default function Footer() {
         </motion.div>
       </div>
       <div className="text-center my-20">
-        <div style={{fontFamily:"Syne"}} className="font-syne font-extrabold text-[64px] leading-[80px] tracking-[0%] uppercase ">
+        <div
+          style={{ fontFamily: "Syne" }}
+          className="font-syne font-extrabold text-[64px] leading-[80px] tracking-[0%] uppercase "
+        >
           LET’S TALK!
         </div>
-        <div style={{fontFamily: "Poppins"}} className="font-poppins font-normal text-[18px] leading-[100%] tracking-[0%] flex items-center justify-center gap-2">
+        <div
+          style={{ fontFamily: "Poppins" }}
+          className="font-poppins font-normal text-[18px] leading-[100%] tracking-[0%] flex items-center justify-center gap-2"
+        >
           rehanurraihan@gmail.com
           <img
             src="/icon8.svg"
