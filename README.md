@@ -17,8 +17,8 @@ This is a modern, responsive portfolio website built with [Next.js](https://next
 
 - **Framework:** [Next.js 14+](https://nextjs.org/)
 - **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-- **Font:** [Geist](https://vercel.com/font) via `next/font`
-- **Deployment:** [Vercel](https://vercel.com)
+- **Font:** [Syne](https://vercel.com/font) via `next/font`
+- **Deployment:** [Vercel](https://assign2-virid-one.vercel.app/)
 
 ---
 
